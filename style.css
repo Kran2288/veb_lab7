@@ -86,3 +86,31 @@ header {
     color: #fff;
     font-size: 15px;
 }
+
+.main__text {
+    margin-top: 100px;
+    display: grid;
+    grid-template-rows: 50px 40px 70px;
+}
+
+.main__text h2 {
+    color: #555555;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.main__line {
+    margin: 0 auto;
+    width: 50px;
+    border-top: 2px solid #555555;
+}
+
+.main__text h4 {
+    color: #555555;
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
