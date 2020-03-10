@@ -116,11 +116,12 @@ header {
 }
 
 .main__tags {
-    margin-left: 20%;
+    margin-left: 21%;
     text-align: center;
     display: grid;
     grid-template-columns: 350px 350px 350px;
     grid-column-gap: 10px;
+
 }
 
 /* 1 Карточка */
@@ -198,7 +199,7 @@ header {
     background-position: center;
     height: 370px;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 .main__slide p {
@@ -207,10 +208,12 @@ header {
     font-family: 'Lato', sans-serif;
     text-align: center;
 }
-.slide__1p{
-    margin-top:50px;
+
+.slide__1p {
+    margin-top: 50px;
 }
-.main__slide button{
+
+.main__slide button {
     height: 40px;
     width: 180px;
     margin: 0 auto;
@@ -223,3 +226,6 @@ header {
     color: black;
     font-size: 15px;
 }
+
+
+
