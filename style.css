@@ -1,230 +1,229 @@
 html {
-    margin: 0;
+  margin: 0;
 }
 
 * {
-    margin: 0;
+  margin: 0;
 }
 
 header {
-    background-image: url("../image/back-lg.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    max-width: 1600px;
-    margin: 0 auto;
+  background-image: url("../veb_lab7/image/back-lg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .header {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 100px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 100px;
 }
 
 .header__h2 {
-    color: #fff;
-    font-family: 'Lato', sans-serif;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 30px;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
 }
 
 .header__menu {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 40px;
 }
 
 .header__menu li {
-    list-style: none;
+  list-style: none;
 }
 
 .header__menu a {
-    text-decoration: none;
-    color: #fff;
-    font-family: 'Muli', sans-serif;
-    font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Muli", sans-serif;
+  font-size: 20px;
 }
 
 .header__menu a:hover {
-    color: black;
-    border-bottom: 2px solid black;
+  color: black;
+  border-bottom: 2px solid black;
 }
 
 .header__text {
-    margin-top: 230px;
-    display: grid;
-    grid-template-rows: 100px 100px 230px;
+  margin-top: 230px;
+  display: grid;
+  grid-template-rows: 100px 100px 230px;
 }
 
 .header__text h1 {
-    color: #fff;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    font-size: 70px;
-    font-weight: 300;
+  color: #fff;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 70px;
+  font-weight: 300;
 }
 
 .header__text h3 {
-    color: #fff;
-    text-align: center;
-    font-family: 'Muli', sans-serif;
-    font-size: 25px;
-    font-weight: 200;
+  color: #fff;
+  text-align: center;
+  font-family: "Muli", sans-serif;
+  font-size: 25px;
+  font-weight: 200;
 }
 
 .header__text button {
-    height: 40px;
-    width: 180px;
-    margin: 0 auto;
-    border: 2px solid #fff;
-    cursor: pointer;
-    background-image: none;
-    background: transparent;
-    float: left;
-    background-color: transparent;
-    color: #fff;
-    font-size: 15px;
+  height: 40px;
+  width: 180px;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  cursor: pointer;
+  background-image: none;
+  background: transparent;
+  float: left;
+  background-color: transparent;
+  color: #fff;
+  font-size: 15px;
 }
 
 .main__text {
-    margin-top: 100px;
-    display: grid;
-    grid-template-rows: 50px 40px 70px;
+  margin-top: 100px;
+  display: grid;
+  grid-template-rows: 50px 40px 70px;
 }
 
 .main__text h2 {
-    color: #555555;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    font-size: 30px;
-    font-weight: 400;
+  color: #555555;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
 }
 
 .main__line {
-    margin: 0 auto;
-    width: 50px;
-    border-top: 2px solid #555555;
+  margin: 0 auto;
+  width: 50px;
+  border-top: 2px solid #555555;
 }
 
 .main__text h4 {
-    color: #555555;
-    text-align: center;
-    font-family: 'Muli', sans-serif;
-    font-size: 15px;
-    font-weight: 500;
+  color: #555555;
+  text-align: center;
+  font-family: "Muli", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
 }
-
+.wrapper {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
 .main__tags {
-    margin-left: 21%;
-    text-align: center;
-    display: grid;
-    grid-template-columns: 350px 350px 350px;
-    grid-column-gap: 10px;
-
+  /* margin-left: 21%; */
+  text-align: center;
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  grid-column-gap: 10px;
 }
 
 /* 1 Карточка */
 .main__tag1 {
-    display: grid;
-    grid-template-rows: 100px 30px 60px;
+  display: grid;
+  grid-template-rows: 100px 30px 60px;
 }
 
 .first-icon {
-    margin: 0 auto;
-    width: 90px;
-    height: 90px;
-    background-color: red;
-    border-radius: 50%;
+  margin: 0 auto;
+  width: 90px;
+  height: 90px;
+  background-color: red;
+  border-radius: 50%;
 }
 
 .first-icon p {
-    margin-top: 15px;
-    color: #fff;
-    font-size: 40px;
-    font-family: 'Muli', sans-serif;
+  margin-top: 15px;
+  color: #fff;
+  font-size: 40px;
+  font-family: "Muli", sans-serif;
 }
 
 .main__tag1 h4 {
-    color: #555555;
+  color: #555555;
 }
 
 .main__tag1 h5 {
-    color: #555555;
+  color: #555555;
 }
 
 /* Вторая карточка */
 .main__tag2 {
-    display: grid;
-    grid-template-rows: 100px 30px 60px;
+  display: grid;
+  grid-template-rows: 100px 30px 60px;
 }
 
 .main__tag2 img {
-    margin: 0 auto;
-    width: 90px;
-    height: 90px;
+  margin: 0 auto;
+  width: 90px;
+  height: 90px;
 }
 
 .main__tag2 h4 {
-    color: #555555;
+  color: #555555;
 }
 
 .main__tag2 h5 {
-    color: #555555;
+  color: #555555;
 }
 
 /* 3 Карточка */
 .main__tag3 {
-    display: grid;
-    grid-template-rows: 100px 30px 140px;
+  display: grid;
+  grid-template-rows: 100px 30px 140px;
 }
 
 .main__tag3 img {
-    margin: 0 auto;
-    width: 90px;
-    height: 90px;
+  margin: 0 auto;
+  width: 90px;
+  height: 90px;
 }
 
 .main__tag3 h4 {
-    color: #555555;
+  color: #555555;
 }
 
 .main__tag3 h5 {
-    color: #555555;
+  color: #555555;
 }
 
-
 .main__slide {
-    background: url("../image/bg-lg2.jpg") no-repeat;
-    background-position: center;
-    height: 370px;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+  background: url("../veb_lab7/image/bg-lg2.jpg") no-repeat;
+  background-position: center;
+  height: 370px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 .main__slide p {
-    color: black;
-    font-size: 30px;
-    font-family: 'Lato', sans-serif;
-    text-align: center;
+  color: black;
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
 }
 
 .slide__1p {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .main__slide button {
-    height: 40px;
-    width: 180px;
-    margin: 0 auto;
-    border: 2px solid #fff;
-    cursor: pointer;
-    background-image: none;
-    background: transparent;
-    float: left;
-    background-color: transparent;
-    color: black;
-    font-size: 15px;
+  height: 40px;
+  width: 180px;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  cursor: pointer;
+  background-image: none;
+  background: transparent;
+  float: left;
+  background-color: transparent;
+  color: black;
+  font-size: 15px;
 }
-
-
-
