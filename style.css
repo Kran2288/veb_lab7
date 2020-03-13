@@ -165,6 +165,7 @@ main {
   justify-self: center;
   align-self: center;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .main__tag2 img {
@@ -190,7 +191,7 @@ main {
   justify-self: center;
   align-self: center;
   text-align: center;
-  s
+  margin-bottom: 20px;
 }
 
 .main__tag3 img {
