@@ -7,7 +7,7 @@ html {
 }
 
 header {
-  background-image: url("../veb_lab7/image/back-lg.png");
+  background-image: url("../image/back-lg.png");
   background-repeat: no-repeat;
   background-position: center;
   max-width: 1600px;
@@ -196,7 +196,7 @@ header {
 }
 
 .main__slide {
-  background: url("../veb_lab7/image/bg-lg2.jpg") no-repeat;
+  background: url("../image/bg-lg2.jpg") no-repeat;
   background-position: center;
   height: 370px;
   display: grid;
